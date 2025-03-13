@@ -1,10 +1,7 @@
-// https://www.mongodb.com/developer/languages/javascript/integrate-mongodb-vercel-functions-serverless-experience/
 import { MongoClient } from "mongodb";
 
 const uri = process.env.MONGODB_URI;
 const options = {
-    // useUnifiedTopology: true,
-    // useNewUrlParser: true,
 };
 
 let mongoClient = null;

@@ -1,0 +1,73 @@
+# Ejemplos
+
+POST https://notas-api-ismael.vercel.app/api/notas HTTP/1.1
+content-type: application/json
+
+{ 
+    "title": "Mesa", 
+    "description": "Mesa de madera", 
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479470/portada_mayonesas_finwma.png",
+    "active": true
+}
+
+### 
+
+POST https://notas-api-ismael.vercel.app/api/notas HTTP/1.1
+content-type: application/json
+
+{ 
+    "title": "Sillas", 
+    "description": "Sillas de madera", 
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479470/aloe-vera-agua-coco-1_bgjty9.webp",
+    "active": true
+}
+
+### 
+
+GET https://notas-api-ismael.vercel.app/api/notas HTTP/1.1
+content-type: application/json
+
+###
+
+GET https://notas-api-ismael.vercel.app/api/notas/67ae4be70f97486ecb9a05a0 HTTP/1.1
+content-type: application/json
+
+###
+
+PUT https://notas-api-ismael.vercel.app/api/notas/67ae4be70f97486ecb9a05a0 HTTP/1.1
+content-type: application/json
+
+{ 
+    "title": "Armario", 
+    "description": "Armario de madera", 
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479451/producto-og_dyq84g.webp",
+    "active": true
+}
+
+###
+
+DELETE https://notas-api-ismael.vercel.app/api/notas/67ae4b570f97486ecb9a059e HTTP/1.1
+content-type: application/json
+
+###
+
+DELETE https://notas-api-ismael.vercel.app/api/notas/67ae4be70f97486ecb9a05a0 HTTP/1.1
+content-type: application/json
+
+### 
+
+POST https://notas-api-ismael.vercel.app/api/notas HTTP/1.1
+content-type: application/json
+
+{ 
+    "title": "Sillon", 
+    "description": "Sillon de madera", 
+    "img": "https://res.cloudinary.com/ismaelrvas/image/upload/v1739479524/drugstorebeautyproducts-2048px-2867_p0l0l8.jpg",
+    "active": true
+}
+
+### 
+
+DELETE https://notas-api-ismael.vercel.app/api/notas/67ae4be70f97486ecb9a05a0
+content-type: application/json
+
